@@ -53,6 +53,17 @@ body {
 	height: auto;
 }
 
+#version {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	color: white;
+}
+
+#version > a {
+	color: green;
+}
+
 #data-select {
 	width: 25%;
 	padding-top: 1%;
